@@ -1,0 +1,42 @@
+# ── Models (too large for Git) ───────────────────────────────────────────────
+model/
+
+# ── Virtual environment ───────────────────────────────────────────────────────
+venv/
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── ChromaDB (auto-regenerated on first run) ──────────────────────────────────
+chroma_db/
+
+# ── Conversation logs (personal data) ────────────────────────────────────────
+logs/
+
+# ── Screenshots (personal) ───────────────────────────────────────────────────
+documents/
+
+# ── Voice model (large binary, user downloads separately) ────────────────────
+voices/*.onnx
+
+# ── Personal data files ───────────────────────────────────────────────────────
+reminders.json
+finetune_dataset.jsonl
+finetuned/
+
+# ── Auto-generated launcher ───────────────────────────────────────────────────
+vera_launcher.vbs
+
+# ── HuggingFace cache ─────────────────────────────────────────────────────────
+.cache/
+
+# ── IDE / OS files ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+desktop.ini

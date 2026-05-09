@@ -1,0 +1,24 @@
+# Vex AI Companion — Python Dependencies
+# Install all with: pip install -r requirements.txt
+
+# ── Core Model Runner ─────────────────────────────────────────────────────────
+# For CPU only:
+llama-cpp-python
+
+# For GPU (CUDA) — comment out the line above and uncomment this:
+# llama-cpp-python[cuda]
+
+# ── Long-Term Memory ──────────────────────────────────────────────────────────
+chromadb
+
+# ── System Control ────────────────────────────────────────────────────────────
+pyautogui          # Media keys + keyboard simulation
+pycaw              # Precise Windows volume control (Windows only)
+comtypes           # Required by pycaw (Windows only)
+AppOpener          # Open apps by name without hardcoding paths
+
+# ── Terminal UI ───────────────────────────────────────────────────────────────
+rich               # Colored, styled terminal output
+
+# ── Validation ────────────────────────────────────────────────────────────────
+pydantic           # JSON validation (used optionally for strict tool schemas)
